@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline X | Build a System-Driven Business</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-logo">SKYLINE X</div>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-content">
+            <a href="/" class="logo">SKYLINE X</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <a href="/contact.html" class="btn-premium btn-primary">Book a Call</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container hero-content">
+            <div data-reveal>
+                <h1 class="text-gradient">Build a System-Driven Business</h1>
+                <p>Automation • Development • Marketing • Growth Systems</p>
+                <p>We help businesses automate operations, build scalable systems and accelerate growth using technology.</p>
+                <div class="hero-btns">
+                    <a href="/services.html" class="btn-premium btn-primary">Get Started</a>
+                    <a href="/contact.html" class="btn-premium btn-outline">Book a Call</a>
+                </div>
+                <div class="floating-metrics">
+                    <div class="metric">
+                        <h3>+250</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="metric">
+                        <h3>98%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                    <div class="metric">
+                        <h3>2–5X</h3>
+                        <p>Growth Potential</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Holographic Dashboard Elements -->
+            <div class="holographic-dashboard" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 400px; height: 500px; pointer-events: none;">
+                <div class="glass floating" style="position: absolute; top: 10%; right: 5%; width: 200px; padding: 1.5rem; animation-delay: 0s;">
+                    <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: var(--cyan)">REVENUE FLOW</h4>
+                    <div style="height: 40px; background: linear-gradient(90deg, var(--cyan) 30%, transparent 100%); opacity: 0.3; border-radius: 4px;"></div>
+                    <p style="font-size: 1.5rem; font-weight: 700; margin-top: 0.5rem">+124%</p>
+                </div>
+                <div class="glass floating" style="position: absolute; bottom: 15%; right: 20%; width: 220px; padding: 1.5rem; animation-delay: 2s;">
+                    <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: var(--accent)">AI ACTIVE</h4>
+                    <div style="display: flex; gap: 5px; height: 20px; align-items: center;">
+                        <div style="width: 10px; height: 10px; background: var(--accent); border-radius: 50%; animation: pulse 2s infinite"></div>
+                        <p style="font-size: 0.7rem">System Scanning...</p>
+                    </div>
+                </div>
+                <div class="glass floating" style="position: absolute; top: 40%; right: 40%; width: 180px; padding: 1rem; animation-delay: 1s;">
+                    <i data-lucide="activity" style="color: var(--primary); margin-bottom: 0.5rem"></i>
+                    <p style="font-size: 0.8rem">95% Efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem glass">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem" data-reveal>
+                <h2 style="font-size: 3rem; margin-bottom: 1rem">Most Businesses Struggle Because They Lack Systems</h2>
+                <p style="color: var(--text-muted)">The gap between chaos and scale is a well-oiled system.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="clock"></i>
+                    <h3>No automation = wasted time</h3>
+                    <p>Manual tasks drain your energy and resources every single day.</p>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="trending-down"></i>
+                    <h3>No strategy = slow growth</h3>
+                    <p>Wandering without a map leads to stagnant results and missed opportunities.</p>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="activity"></i>
+                    <h3>No systems = chaos</h3>
+                    <p>Scaling without structure creates bottlenecks that break your business.</p>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="database"></i>
+                    <h3>No data = poor decisions</h3>
+                    <p>Guesswork is expensive. Systems provide the clarity you need to win.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem" data-reveal>
+                <h2 style="font-size: 3rem;">We Turn Businesses Into Scalable Systems</h2>
+                <p style="color: var(--text-muted)">Our core solutions for high-ticket growth.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="cpu"></i>
+                    <h3>Business Automation Systems</h3>
+                    <p>CRM, ERP, and AI integrations that handle the heavy lifting for you.</p>
+                    <a href="/service-detail.html?id=automation" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="code"></i>
+                    <h3>Web Development</h3>
+                    <p>Corporate sites, SaaS platforms, and high-converting landing pages.</p>
+                    <a href="/service-detail.html?id=web" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="megaphone"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Lead generation systems that bring consistent growth through Meta and Google Ads.</p>
+                    <a href="/service-detail.html?id=marketing" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="palette"></i>
+                    <h3>Brand Identity</h3>
+                    <p>Premium visual systems that position you as an industry leader.</p>
+                    <a href="/service-detail.html?id=branding" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="shopping-cart"></i>
+                    <h3>E-Commerce Scale</h3>
+                    <p>End-to-end store development and conversion optimization systems.</p>
+                    <a href="/service-detail.html?id=ecommerce" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <i data-lucide="target"></i>
+                    <h3>Growth Strategy</h3>
+                    <p>Consultation and roadmap development for rapid business scaling.</p>
+                    <a href="/service-detail.html?id=strategy" style="color: var(--cyan); text-decoration: none; font-weight: 600">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results / Counters -->
+    <section class="results glass">
+        <div class="container">
+            <div class="floating-metrics" style="justify-content: space-around; text-align: center;">
+                <div class="metric" data-reveal>
+                    <h3 class="text-gradient" style="font-size: 3.5rem"><span class="counter" data-target="5">0</span>X</h3>
+                    <p>Growth Potential</p>
+                </div>
+                <div class="metric" data-reveal>
+                    <h3 class="text-gradient" style="font-size: 3.5rem"><span class="counter" data-target="500">0</span>+</h3>
+                    <p>Workflows Automated</p>
+                </div>
+                <div class="metric" data-reveal>
+                    <h3 class="text-gradient" style="font-size: 3.5rem"><span class="counter" data-target="95">0</span>%</h3>
+                    <p>Faster Operations</p>
+                </div>
+                <div class="metric" data-reveal>
+                    <h3 class="text-gradient" style="font-size: 3.5rem"><span class="counter" data-target="300">0</span>+</h3>
+                    <p>Success Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 4rem" data-reveal>What Our Clients Say</h2>
+            <div class="services-grid">
+                <div class="service-card glass" data-reveal>
+                    <p>"Skyline X transformed our manual mess into a streamlined machine. Our revenue tripled in 6 months."</p>
+                    <div style="margin-top: 2rem; display: flex; align-items: center; gap: 15px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: #333;"></div>
+                        <div>
+                            <h4 style="margin: 0">James Wilson</h4>
+                            <p style="margin: 0; font-size: 0.8rem">CEO, TechFlow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <p>"The best investment we've ever made. The automation systems alone save us 40 hours a week."</p>
+                    <div style="margin-top: 2rem; display: flex; align-items: center; gap: 15px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: #333;"></div>
+                        <div>
+                            <h4 style="margin: 0">Sarah Chen</h4>
+                            <p style="margin: 0; font-size: 0.8rem">Founder, GlowScale</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card glass" data-reveal>
+                    <p>"Their strategy and web development are light years ahead of anyone else. Truly premium service."</p>
+                    <div style="margin-top: 2rem; display: flex; align-items: center; gap: 15px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: #333;"></div>
+                        <div>
+                            <h4 style="margin: 0">Marcus Reed</h4>
+                            <p style="margin: 0; font-size: 0.8rem">Director, Prime Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta" style="background: linear-gradient(to bottom, transparent, var(--primary-glow)); padding: 150px 0;">
+        <div class="container" style="text-align: center;" data-reveal>
+            <h2 style="font-size: 4rem; margin-bottom: 2rem">Ready To Scale Your Business?</h2>
+            <div class="hero-btns" style="justify-content: center;">
+                <a href="/contact.html" class="btn-premium btn-primary">Book a Strategy Call</a>
+                <a href="/pricing.html" class="btn-premium btn-outline">Get Custom Proposal</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SKYLINE X. All systems operational.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
